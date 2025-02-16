@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.*;
+/*
 
 public class SortListDemo {
     public static void main(String[] args) {
@@ -17,4 +18,4 @@ public class SortListDemo {
         System.out.println(employeeList.stream().collect(groupingBy(Employee::getDept,filtering(employee -> employee.getSalary()>600000,
                 mapping(employee -> employee.getId(),Collectors.toList())))));
 }
-}
+}*/
